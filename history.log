@@ -1,0 +1,6 @@
+ 65  sudo subl /etc/ansible/hosts
+   66  ansible javabean -m ping -u mkoltsov
+   68  ansible javabean -m ping -u mkoltsov --ask-pass
+   69  ansible javabean -a "free -m" -u mkoltsov --ask-pass
+   70  ansible javabean -a "df -h"" -u mkoltsov --ask-pass
+   71  ansible javabean -a "df -h" -u mkoltsov --ask-pass
